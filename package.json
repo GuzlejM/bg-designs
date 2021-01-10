@@ -56,5 +56,10 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
   }
 }
