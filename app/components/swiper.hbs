@@ -1,0 +1,19 @@
+
+<div class="w-full h-2/3">
+  {{#swiper-container class="flex border-solid border-4 border-blue-500 h-full w-full"
+    grabCursor=true
+    loop=true
+    loopAdditionalSlides=3
+    slidesPerView=3
+    pagination=true
+    centeredSlides=true
+  }}
+    <SwiperItem />
+    <SwiperItem />
+    <SwiperItem />
+    <SwiperItem />
+    <SwiperItem />
+  {{/swiper-container}}
+</div>
+
+{{yield}}
