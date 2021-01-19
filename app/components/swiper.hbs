@@ -10,12 +10,12 @@
     slidesPerView=3
     pagination=true
     centeredSlides=true
-  }}
-    <SwiperItem />
-    <SwiperItem />
-    <SwiperItem />
-    <SwiperItem />
-    <SwiperItem />
+  }}  
+      {{#each @model as |image|}}
+        {{#swiper-slide class="flex justify-center items-center h-full w-40 p-2"}}
+          <img src="{{image}}" alt="">
+        {{/swiper-slide}}
+      {{/each}}
   {{/swiper-container}}
 </div>
 
