@@ -1,10 +1,5 @@
     <div class="h-full w-full flex flex-col items-center justify-evenly lg:flex-row">
-      <h1 class="lg:w-1/4 flex justify-center">Interiors</h1>
-      {{#swiper-container class="flex border-solid border-4 border-blue-500 h-full w-full md:w-full lg:w-full"
-        grabCursor=true loop=true loopAdditionalSlides=3 slidesPerView=3 pagination=true centeredSlides=true
-      }}
-        {{#swiper-slide class="flex justify-center items-center h-full w-40 p-2"}}
-          <img src="assets/logo.png" alt="">
-        {{/swiper-slide}}
-      {{/swiper-container}}
+      <Swiper::Title />
+      <Swiper::Container />
+
     </div>
