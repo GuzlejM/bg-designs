@@ -1,0 +1,9 @@
+.swiper-pagination-bullet-active {
+    background-color: black;
+    transform: scale(1.6);
+    transition: .3s;
+}
+
+.swiper-pagination-bullet {
+    transition: .3s;
+}

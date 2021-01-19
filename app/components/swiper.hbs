@@ -1,5 +1,8 @@
-    <div class="h-full w-full flex flex-col items-center justify-evenly lg:flex-row">
-      <Swiper::Title />
-      <Swiper::Container />
-
-    </div>
+<div class="h-full w-full flex flex-col items-center justify-evenly lg:flex-row">
+  <Swiper::Title />
+  {{#swiper-container class="flex h-full w-full md:w-full lg:w-full"
+    grabCursor=true loop=true centered=true slidesPerView=3 pagination=true
+  }}
+    {{yield}}
+  {{/swiper-container}}
+</div>
