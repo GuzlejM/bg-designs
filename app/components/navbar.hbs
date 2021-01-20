@@ -1,6 +1,6 @@
 <nav class="flex flex-col w-full md:flex md:flex-row ">
   <div class="flex md:w-2/5">
-    <a href="" class="w-auto m-5 mx-auto md:ml-5"><img src="assets/logo.png" alt="" class="h-10 w-auto md:h-20"></a>
+    <LinkTo @route="index" class="w-auto m-5 mx-auto md:ml-5"><img src="assets/logo.png" alt="" class="h-10 w-auto md:h-20"></LinkTo>
   </div>
   <div class="flex flex-row justify-around md:w-3/5 md:mt-5 h-auto">
   <!-- a tags are clicable even not only on the text -->
@@ -9,4 +9,3 @@
     <a href="" class="md:text-4xl" >Contact</a>
   </div>
 </nav>
-{{yield}}

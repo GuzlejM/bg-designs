@@ -7,3 +7,7 @@
 .swiper-pagination-bullet {
     transition: .6s;
 }
+
+.swiper-pagination {
+    padding-top: 10px;
+}
