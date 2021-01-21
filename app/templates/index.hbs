@@ -1,9 +1,9 @@
 <section class="w-full h-screen">
   <Navbar />
   <Hello />
-  <Socials />
+  <Socials class="absolute bottom-5 left-5"/>
 </section>
-<section class="h-screen relative">
+<section class="relative">
   <SwiperSection>
     <Swiper::Title @title=interiors/>
     <Swiper>
@@ -30,7 +30,7 @@
       <Swiper::Slide src="assets/Raja.jpg">
         <Slide::Title @title="Chair - Raja" />
       </Swiper::Slide>
-      <Swiper::Slide src="assets/bane.JPG">
+      <Swiper::Slide src="assets/bane.png">
         <Slide::Title @title="Bottle - Bane" />
       </Swiper::Slide>
       <Swiper::Slide src="assets/ghetto.JPG">
@@ -39,9 +39,42 @@
       <Swiper::Slide src="assets/C1.jpg">
         <Slide::Title @title="Bench - C1" />
       </Swiper::Slide>
-      <Swiper::Slide src="assets/ludo.JPG">
+      <Swiper::Slide src="assets/ludo.png">
         <Slide::Title @title="Stool - Ludo" />
       </Swiper::Slide>
     </Swiper>
   </SwiperSection>
+</section>
+<section class="w-full">
+<!-- component -->
+<footer class="footer bg-white relative pt-1 border-b-2 border-blue-700">
+    <div class="container mx-auto px-6">
+
+        <div class="sm:flex sm:mt-8">
+            <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between lg:justify-around">
+                <div class="flex flex-col">
+                    <span class="font-bold uppercase mt-4 md:mt-0 mb-2">Contact</span>
+                    <span class="my-2">Tel: +421 901 123 456</span>
+                    <span class="my-2">Adress: Praha, Art St.</span>
+                    <span class="my-2">Zip: 119 19</span>
+                </div>
+                 <div class="flex flex-col">
+                    <span class="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Socials</span>
+                    <span class="my-2">Barbora Gaziova</span>
+                    <Socials class="relative"/>
+                    <span class="my-2">Email: bgaziova@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto px-6">
+        <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+            <div class="sm:w-2/3 text-center py-6">
+                <p class="text-sm font-bold mb-2">
+                    © Created 2021 by GuzlejM ltd
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 </section>
