@@ -16,7 +16,7 @@ Router.map(function() {
     this.route('ghetto', { path: '/Toy-Ghetto' });
     this.route('kids', { path: '/Kids-room' });
     this.route('ludo', { path: '/Stool-Ludo' });
-    this.route('paul', { path: '/House-Paulen' });
+    this.route('paul');
     this.route('raja', { path: '/Chair-Raja' });
   });
 });
