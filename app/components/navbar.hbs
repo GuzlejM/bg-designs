@@ -1,4 +1,4 @@
-<nav class="flex flex-col w-full md:flex md:flex-row lg:px-20">
+<nav class="flex flex-col w-full md:flex md:flex-row lg:px-20 fade">
   <div class="flex md:w-2/5 justify-center lg:justify-start">
     <LinkTo @route="index" class="w-auto my-5"><img src="assets/logo.png" alt="" class="h-10 w-auto md:h-20"></LinkTo>
   </div>
@@ -6,6 +6,7 @@
   <!-- a tags are clicable even not only on the text -->
   <LinkTo @route="index" class="md:text-3xl font-bold uppercase">Interiors</LinkTo>
   <LinkTo @route="index" class="md:text-3xl font-bold uppercase">Projects</LinkTo>
+  <LinkTo @route="gallery" class="md:text-3xl font-bold uppercase">Gallery</LinkTo>
   <LinkTo @route="index" class="md:text-3xl font-bold uppercase">Contacts</LinkTo>
   </div>
 </nav>
