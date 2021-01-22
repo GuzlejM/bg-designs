@@ -1,12 +1,5 @@
- <Navbar />
+ <Navbar src="/assets/logo.png"  />
  <div class="flex flex-col pt-20 lg:p-20">
-   <Gallery::Title @title="Bench - C1"/>
-    <Grid class="grid-rows-2">
-      <Grid::Item class="col-start-1 col-span-4" src="assets/2/1.jpg"/>
-      <Grid::Item class="col-start-5 col-span-2" src="assets/2/4.jpg"/>
-      <Grid::Item class="col-start-1 col-span-2" src="assets/2/3.jpg"/>
-      <Grid::Item class="col-start-3 col-span-4 self-end" src="assets/2/2.jpg"/>
-    </Grid>
+   {{outlet}}
  </div>
  <Footer />
-{{outlet}}
