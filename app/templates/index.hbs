@@ -1,5 +1,4 @@
 <section class="w-full h-screen">
-  <Navbar />
   <Hello />
   <Socials class="absolute fade bottom-5 left-6 lg:left-20">
     <Socials::Item href="https://www.facebook.com/barborka.gaziova">
@@ -17,7 +16,7 @@
   <SwiperSection>
     <Swiper::Title @title=interiors/>
     <Swiper>
-      <Swiper::Slide src="assets/paul.jpg">
+      <Swiper::Slide @route="/gallery" src="assets/paul.jpg">
         <Slide::Title @title="Paulen House" />
       </Swiper::Slide>
       <Swiper::Slide src="assets/kid.jpg">
@@ -56,5 +55,4 @@
   </SwiperSection>
 </section>
 <section class="w-full">
-<Footer />
 </section>
