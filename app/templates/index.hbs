@@ -1,0 +1,58 @@
+<section class="w-full h-screen">
+  <Hello />
+  <Socials class="absolute fade bottom-5 left-6 lg:left-20">
+    <Socials::Item href="https://www.facebook.com/barborka.gaziova">
+      <Icon class="fab fa-facebook-f  lg:text-5xl mr-1 md:mr-5"/>
+    </Socials::Item>
+    <Socials::Item href="https://twitter.com/barboragaziova">
+      <Icon class="fab fa-twitter lg:text-5xl mr-1 md:mr-5"/>
+    </Socials::Item>
+    <Socials::Item href="https://www.instagram.com/_barbora.g/">
+      <Icon class="fab fa-instagram lg:text-5xl mr-1 md:mr-5"/>
+    </Socials::Item>
+  </Socials>
+</section>
+<section class="relative">
+  <SwiperSection>
+    <Swiper::Title @title=interiors/>
+    <Swiper>
+      <Swiper::Slide @route="/gallery" src="assets/paul.jpg">
+        <Slide::Title @title="Paulen House" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/kid.jpg">
+        <Slide::Title @title="Kids room" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/chill.jpg">
+        <Slide::Title @title="Chillout zone" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/bathf.jpg">
+        <Slide::Title @title="Bath - FoGo" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/baths.png">
+        <Slide::Title @title="Bath - Selec" />
+      </Swiper::Slide>
+    </Swiper>
+  </SwiperSection>
+  <SwiperSection>
+    <Swiper::Title @title=projects />
+    <Swiper>
+      <Swiper::Slide src="assets/Raja.jpg">
+        <Slide::Title @title="Chair - Raja" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/bane.png">
+        <Slide::Title @title="Bottle - Bane" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/ghetto.JPG">
+        <Slide::Title @title="Toy - Ghetto" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/C1.jpg">
+        <Slide::Title @title="Bench - C1" />
+      </Swiper::Slide>
+      <Swiper::Slide src="assets/ludo.png">
+        <Slide::Title @title="Stool - Ludo" />
+      </Swiper::Slide>
+    </Swiper>
+  </SwiperSection>
+</section>
+<section class="w-full">
+</section>
