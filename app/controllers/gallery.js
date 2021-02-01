@@ -1,5 +1,5 @@
 import Ember from 'ember';
- 
+
 export default Ember.Controller.extend({
   items: [
     {
@@ -8,12 +8,12 @@ export default Ember.Controller.extend({
       h: 768,
     },
     {
-      src: 'assets/ph/3.jpg',
+      src: 'assets/ph/1.jpg',
       w: 768,
       h: 1024,
     },
     {
-      src: 'assets/ph/4.jpg',
+      src: 'assets/ph/1.jpg',
       w: 768,
       h: 768,
     },

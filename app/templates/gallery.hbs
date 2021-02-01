@@ -1,20 +1,15 @@
  <div class="flex flex-col lg:pt-20 lg:p-20">
    <Gallery::Title @title="Paulen House"/>
-         {{#photo-swipe items=items history=false as |photoswipe|}}
-        {{#each items as |item index|}}
     <Grid class="grid-rows-8">
-          <Grid::Item src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />
-      {{!-- <Grid::Item class="col-start-1 row-span-3 col-span-4" src="assets/ph/1.jpg"/>
+      <Grid::Item class="col-start-1 row-span-3 col-span-4" src="assets/ph/1.jpg"/>
       <Grid::Item class="col-start-5 row-span-3 col-span-2" src="assets/ph/3.jpg"/>
       <Grid::Item class="col-start-1 row-span-2 col-span-3 self-center" src="assets/ph/4.jpg"/>
       <Grid::Item class="col-start-4 row-span-2 col-span-3" src="assets/ph/2.jpg"/>
       <Grid::Item class="col-start-1 row-span-1 col-span-2" src="assets/ph/5.jpg"/>
       <Grid::Item class="col-start-3 row-span-1 col-span-2" src="assets/ph/6.jpg"/>
       <Grid::Item class="col-start-5 row-span-1 col-span-2" src="assets/ph/8.jpg"/>
-      <Grid::Item class="col-start-1 row-span-1 col-span-6" src="assets/ph/7.jpg"/> --}}
+      <Grid::Item class="col-start-1 row-span-1 col-span-6" src="assets/ph/7.jpg"/>
     </Grid>
-            {{/each}}
-      {{/photo-swipe}}
       <Gallery::Title @title="Kids room"/>
     <Grid class="grid-rows-10">
       <Grid::Item class="col-start-1 col-span-3" src="assets/cr/1.jpg"/>
@@ -58,8 +53,6 @@
       <Grid::Item class="col-start-1 col-span-4" src="assets/chr/8.jpg"/>
       <Grid::Item class="col-start-5 col-span-2" src="assets/chr/6.PNG"/>
       <Grid::Item class="col-start-1 col-span-2" src="assets/chr/7.jpg"/>
-      
-
     </Grid>
    <Gallery::Title @title="Bottle - bane"/>
     <Grid class="grid-rows-10">
@@ -73,12 +66,12 @@
       <Gallery::Title @title="Toy - Ghetto"/>
     <Grid class="grid-rows-10">
       <Grid::Item class="col-start-1 row-span-4 col-span-4" src="assets/tg/1.jpg"/>
-      <Grid::Item class="col-start-5 row-span-1 col-span-2" src="assets/tg/6.jpg"/>
+      <Grid::Item class="col-start-5 row-span-1 col-span-2" src="assets/tg/66.JPG"/>
       <Grid::Item class="col-start-5 row-span-1 col-span-2 self-end" src="assets/tg/7.jpg"/>
       <Grid::Item class="col-start-5 row-span-2 col-span-2 self-end" src="assets/tg/8.jpg"/>
       <Grid::Item class="col-start-1 row-span-2 col-span-4" src="assets/tg/2.jpg"/>
       <Grid::Item class="col-start-5 row-span-1 col-span-2 self-start" src="assets/tg/4.jpg"/>
-      <Grid::Item class="col-start-5 row-span-1 col-span-2 self-end" src="assets/tg/5.JPG"/>
+      <Grid::Item class="col-start-5 row-span-1 col-span-2 self-end" src="assets/tg/55.jpg"/>
       <Grid::Item class="col-start-1 row-span-1 col-span-6" src="assets/tg/3.jpg"/>
 
 
