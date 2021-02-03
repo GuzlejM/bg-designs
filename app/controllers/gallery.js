@@ -8,12 +8,12 @@ export default Ember.Controller.extend({
       h: 768,
     },
     {
-      src: 'assets/ph/1.jpg',
+      src: 'assets/ph/2.jpg',
       w: 768,
       h: 1024,
     },
     {
-      src: 'assets/ph/1.jpg',
+      src: 'assets/ph/3.jpg',
       w: 768,
       h: 768,
     },
