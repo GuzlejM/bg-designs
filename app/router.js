@@ -8,14 +8,14 @@ export default class Router extends EmberRouter {
 
 Router.map(function() {
   this.route('gallery')
-  this.route('bane', { path: '/Bottle-Bane' });
-  this.route('fono', { path: '/Bathroom-Fono' });
-  this.route('selec', { path: '/Bathroom-Selec' });
-  this.route('c1', { path: '/Bench-C1' });
-  this.route('chill', { path: '/Chillout-Zone' });
-  this.route('ghetto', { path: '/Toy-Ghetto' });
-  this.route('kids', { path: '/Kids-room' });
-  this.route('ludo', { path: '/Stool-Ludo' });
+  this.route('bane');
+  this.route('fono');
+  this.route('selec');
+  this.route('c1');
+  this.route('chill');
+  this.route('ghetto');
+  this.route('kids');
+  this.route('ludo');
   this.route('paul');
-  this.route('raja', { path: '/Chair-Raja' });
+  this.route('raja');
 });
