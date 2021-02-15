@@ -1,0 +1,11 @@
+
+<div class="flex flex-col pt-20 lg:p-20">
+  <Gallery::Title @title="Paulen House"/>
+  {{#photo-swipe class="grid grid-flow-auto grid-flow-dense grid-cols-3 gap-4 mt-10" items=items history=false as |photoswipe|}}
+    {{#each items as |item index|}}
+      <div class="overflow-hidden self-center">
+        <img class="transform hover:scale-125 duration-700 ease-in-out cursor-pointer object-cover" src={{item.src}} {{action photoswipe.actions.open (hash index=index)}}  />
+      </div> 
+    {{/each}}
+  {{/photo-swipe}}
+</div>
