@@ -1,1 +1,40 @@
 @import "ember-photoswipe";
+
+.swiper-pagination-bullet-active {
+    background-color: black;
+    transform: scale(1.6);
+    transition: .5s;
+}
+
+.swiper-pagination-bullet {
+    transition: .6s;
+}
+
+.swiper-pagination {
+    padding-top: 10px;
+}
+
+.fade {
+    animation: 2s fadein 1s forwards;
+    opacity: 0
+}
+
+@keyframes fadein {
+	100% {
+		opacity: 1;
+		color: black;
+	}
+}
+
+.slide-fade {
+    opacity: 0;
+	margin-top: 100px;
+	animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
+}
