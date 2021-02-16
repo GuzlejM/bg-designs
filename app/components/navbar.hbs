@@ -3,10 +3,25 @@
     <LinkTo @route="index" class="w-auto my-5"><img alt="" class="h-10 w-auto md:h-20 lg:self-start" src="/assets/logo.png"...attributes></LinkTo>
   </div>
   <div class="flex flex-row justify-around lg:justify-around items-center md:w-3/5 h-auto">
-  <!-- a tags are clicable even not only on the text -->
-  <a href="#projects" class="text-sm md:text-3xl font-bold uppercase">Projects</a>
-  <a class="text-sm md:text-3xl font-bold uppercase">Gallery</a>
-  <a class="text-sm md:text-3xl font-bold uppercase">Contacts</a>
-  <a class="text-sm md:text-3xl font-bold uppercase">Interiors</a>
+
+  {{scroll-to
+    label="Interiors"
+    target="#projects"
+    tagName="a"
+    classNames="scroll-btn text-sm md:text-2xl mr-2 lg:text-3xl font-bold uppercase"
+  }}
+  {{scroll-to
+    label="Projects"
+    target="#projects"
+    tagName="a"
+    classNames="scroll-btn text-sm md:text-2xl mr-2 lg:text-3xl font-bold uppercase"
+
+  }}
+  {{scroll-to
+    label="Contacts"
+    target="#contacts"
+    tagName="a"
+    classNames="scroll-btn text-sm md:text-2xl mr-2 lg:text-3xl font-bold uppercase"
+  }}
   </div>
 </nav>
